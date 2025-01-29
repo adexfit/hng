@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <main class="mainCard">
+      <h1>Profile Card</h1>
+      <div class="content">
+          <div class="imgD">
+            <img src="https://avatars.githubusercontent.com/u/68389567?v=4" alt="my-pic" data-testid="profilePicture"/>
+            <div class="socials" data-testid="socialLinks">
+              <a href="https://www.linkedin.com/in/elishaadeboye/"><i class="fa fa-linkedin-square" style="font-size: 32px;"></i></a>
+              <a href="https://github.com/adexfit/"><i class="	fa fa-github" style="font-size: 32px;"></i></a>
+            </div>
+          </div>     
+          <div class="list"> 
+            <ul class="">
+              <li data-testid="fullName"><span>Full Name</span>: Adeboye Elisha Owoyemi</li>
+              <li data-testid="jobTitle"><span>Job title</span>: Software Engineer</li>
+              <li data-testid="shortBio">
+              <span>Short Bio</span>: I am a dedicated and passionate software engineer with
+                minimal experience in developing innovative web applications. I hold a
+                Bachelor’s degree in Physiotherapy from the University of Ibadan. In
+                my leisure time, I love contributing to open-source projects. I am
+                committed to continuous learning and staying updated with the latest
+                industry trends. Feel free to connect with me on social media.
+              </li>
+              <li data-testid="currentLocation"><span>Current Location</span>: Owo, Nigeria</li>
+              <li data-testid="emailAddress">
+              <span> Email</span>: <a href="mailto:y.adeboye@gmail.com">y.adeboye@gmail.com</a>
+              </li>
+              <li><span>Current time (UTC)</span>: <span id="clock" data-testid="currentTimeUTC"></span></li>
+            </ul>
+          </div>
+      </div>
+       <br/>
+
+
+      </ul>
+    </main>
+    <script src="main.js">
+    </script>
+  </body>
+</html>
